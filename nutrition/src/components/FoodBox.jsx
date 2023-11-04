@@ -2,8 +2,8 @@ import { Component } from 'react'
 
 class boxComponent extends Component {
 
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.handleChange = this.handleChange.bind(this)
         this.state = {
             value: 0,
